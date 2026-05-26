@@ -1,0 +1,35 @@
+.stock-list {
+  width: 90%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #97f440e0;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #6fe80d;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f8f8f7;
+}
+
+td {
+  font-size: 14px;
+}

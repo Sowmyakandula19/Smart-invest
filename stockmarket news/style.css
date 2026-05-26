@@ -1,0 +1,110 @@
+/* Reset and Body Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8f5e9; /* Light green background */
+    padding: 30px;
+    color: #1b5e20;
+  }
+  .title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  .title-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .logo {
+    position: absolute;
+    left: 10px;
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+  }
+ .main-title {
+    font-size: 2.9rem;
+    color: #2e7d32;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+  
+  /* ========== PAGE TITLE CENTERED ========== */
+  main h1 {
+    text-align: center;
+    color: #2e7d32;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  /* Page Title */
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2e7d32; /* Deep green */
+  }
+  
+  /* News Container */
+  #news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Each News Box */
+  #news-container div {
+    background-color: #ffffff;
+    border-left: 6px solid #66bb6a; /* Green left border */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  #news-container div:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Headings & Links */
+  #news-container h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  #news-container a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #news-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Descriptions */
+  #news-container p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
